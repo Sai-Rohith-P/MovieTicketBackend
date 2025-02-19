@@ -1,0 +1,820 @@
+[
+    {
+        "id": 1,
+        "theatername": "AAA Cinemas: Ameerpet",
+        "address": "Street 1, Hyderabad",
+        "cityname": "Hyderabad",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "4:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM",
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Identity",
+                "schedule": [
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 6,
+                "moviename": "Gandhi Tatha Chettu",
+                "schedule": [
+                    "4:00 PM",
+                    "7:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "theatername": "AAB Cinemas: Gachibowli",
+        "address": "Street 1, Hyderabad",
+        "cityname": "Hyderabad",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "11:00 AM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Mufasa: The Lion King",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Sky Force",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Hongkong Warriors",
+                "schedule": [
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "theatername": "Aparna Cinemas: Nallagandla",
+        "address": "Street 1, Hyderabad",
+        "cityname": "Hyderabad",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "4:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "11:00 AM",
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "theatername": "Asian CineSquare Multiplex: Uppal",
+        "address": "Street 1, Hyderabad",
+        "cityname": "Hyderabad",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "theatername": "INOX: GVK One, Banjara Hills",
+        "address": "Street 1, Hyderabad",
+        "cityname": "Hyderabad",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "theatername": "INOX: prism Mall, Hyderabad",
+        "address": "Street 1, Hyderabad",
+        "cityname": "Hyderabad",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Hongkong Warriors",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Gandhi Tatha Chettu",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "theatername": "INOX: CMR Central, Gajuwaka",
+        "address": "Street 1, Visakhapatnam",
+        "cityname": "Visakhapatnam",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "4:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM",
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Hongkong Warriors",
+                "schedule": [
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 6,
+                "moviename": "Mufasa: The Lion King",
+                "schedule": [
+                    "4:00 PM",
+                    "7:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "theatername": "INOX: CMR Central, Maddilapalem",
+        "address": "Street 1, Visakhapatnam",
+        "cityname": "Visakhapatnam",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Hongkong Warriors",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Hathya",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Emergency",
+                "schedule": [
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 6,
+                "moviename": "Gandhi Tatha Chettu",
+                "schedule": [
+                    "4:00 PM",
+                    "7:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "theatername": "INOX: Laila Mall, M.G. Road",
+        "address": "Street 1, Vijayawada",
+        "cityname": "Vijayawada",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Hongkong Warriors",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Identity",
+                "schedule": [
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            },
+            {
+                "movieId": 6,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "theatername": "Cinepolis: Power One Mall, Vijayawada",
+        "address": "Street 1, Vijayawada",
+        "cityname": "Vijayawada",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Mufasa: The Lion King",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "theatername": "PVR: Ripples, Vijayawada",
+        "address": "Street 1, Vijayawada",
+        "cityname": "Vijayawada",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Mufasa: The Lion King",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Gandhi Tatha Chettu",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "theatername": "Raja Picture Palace: Anakapalle",
+        "address": "Street 1, Anakapalli",
+        "cityname": "Anakapalli",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Identity",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Sky Force",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "theatername": "Rama Chandra Hall: Anakapalle",
+        "address": "Street 1, Anakapalli",
+        "cityname": "Anakapalli",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "theatername": "Satya Theater: Anakapalle",
+        "address": "Street 1, Anakapalli",
+        "cityname": "Anakapalli",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Gandhi Tatha Chettu",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "theatername": "Shird Sai Theater: Anakapalli",
+        "address": "Street 1, Anakapalli",
+        "cityname": "Anakapalli",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Mufasa: The Lion King",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Emergency",
+                "schedule": [
+                    "5:00 PM",
+                    "8:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "theatername": "INOX CMR Central, Gajuwaka, Vizag",
+        "address": "Street 1, Gajuwaka",
+        "cityname": "Gajuwaka",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Daaku Maharaaj",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "theatername": "Sian Mukta A2 Cinemas: Gajuwaka",
+        "address": "Street 1, Vijayawada",
+        "cityname": "Vijayawada",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Pushpa 2",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "theatername": "VMR Mall: Gajuwaka",
+        "address": "Street 1, Gajuwaka",
+        "cityname": "Gajuwaka",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Game Changer",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "theatername": "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka",
+        "address": "Street 1, Gajuwaka",
+        "cityname": "Gajuwaka",
+        "movies": [
+            {
+                "movieId": 1,
+                "moviename": "Emergency",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            },
+            {
+                "movieId": 2,
+                "moviename": "Sankranthiki Vasthunnam",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 3,
+                "moviename": "Hathya",
+                "schedule": [
+                    "11:00 AM",
+                    "2:00 PM"
+                ]
+            },
+            {
+                "movieId": 4,
+                "moviename": "Identity",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM"
+                ]
+            },
+            {
+                "movieId": 5,
+                "moviename": "Mufasa: The Lion King",
+                "schedule": [
+                    "10:00 AM",
+                    "1:00 PM",
+                    "7:00 PM"
+                ]
+            }
+        ]
+    }
+]

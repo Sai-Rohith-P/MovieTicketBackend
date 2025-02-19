@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "cityname": "hyderabad",
+        "theaters": [
+            {
+                "theaterId": 1,
+                "theatername": "AAA Cinemas: Ameerpet",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Sankranthiki Vasthunnam",
+                    "Pushpa 2",
+                    "Identity",
+                    "Gandhi Tatha Chettu"
+                ]
+            },
+            {
+                "theaterId": 2,
+                "theatername": "AAB Cinemas: Gachibowli",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Mufasa: The Lion King",
+                    "Sky Force",
+                    "Hongkong Warriors"
+                ]
+            },
+            {
+                "theaterId": 3,
+                "theatername": "Aparna Cinemas: Nallagandla",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Pushpa 2",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 4,
+                "theatername": "Asian CineSquare Multiplex: Uppal",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Pushpa 2",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 5,
+                "theatername": "INOX: GVK One, Banjara Hills",
+                "movies": [
+                    "Game Changer",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 6,
+                "theatername": "INOX: prism Mall, Hyderabad",
+                "movies": [
+                    "Game Changer",
+                    "Sankranthiki Vasthunnam",
+                    "Hongkong Warriors",
+                    "Gandhi Tatha Chettu"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "cityname": "visakhapatnam",
+        "theaters": [
+            {
+                "theaterId": 1,
+                "theatername": "INOX: CMR Central, Gajuwaka",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Sankranthiki Vasthunnam",
+                    "Pushpa 2",
+                    "Mufasa: The Lion King",
+                    "Hongkong Warriors"
+                ]
+            },
+            {
+                "theaterId": 2,
+                "theatername": "INOX: CMR Central, Maddilapalem",
+                "movies": [
+                    "Game Changer",
+                    "Sankranthiki Vasthunnam",
+                    "Hongkong Warriors",
+                    "Gandhi Tatha Chettu",
+                    "Emergency",
+                    "Hathya"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "cityname": "vijayawada",
+        "theaters": [
+            {
+                "theaterId": 1,
+                "theatername": "INOX: Laila Mall, M.G. Road",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Sankranthiki Vasthunnam",
+                    "Pushpa 2",
+                    "Identity",
+                    "Hongkong Warriors"
+                ]
+            },
+            {
+                "theaterId": 2,
+                "theatername": "Cinepolis: Power One Mall, Vijayawada",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Sankranthiki Vasthunnam",
+                    "Mufasa: The Lion King"
+                ]
+            },
+            {
+                "theaterId": 3,
+                "theatername": "PVR: Ripples, Vijayawada",
+                "movies": [
+                    "Game Changer",
+                    "Sankranthiki Vasthunnam",
+                    "Gandhi Tatha Chettu",
+                    "Mufasa: The Lion King"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "cityname": "anakapalli",
+        "theaters": [
+            {
+                "theaterId": 1,
+                "theatername": "Raja Picture Palace: Anakapalle",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Sky Force",
+                    "Pushpa 2",
+                    "Identity"
+                ]
+            },
+            {
+                "theaterId": 2,
+                "theatername": "Rama Chandra Hall: Anakapalle",
+                "movies": [
+                    "Game Changer",
+                    "Daaku Maharaaj",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 3,
+                "theatername": "Satya Theater: Anakapalle",
+                "movies": [
+                    "Game Changer",
+                    "Gandhi Tatha Chettu",
+                    "Pushpa 2",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 4,
+                "theatername": "Shird Sai Theater: Anakapalli",
+                "movies": [
+                    "Mufasa: The Lion King",
+                    "Pushpa 2",
+                    "Emergency",
+                    "Sankranthiki Vasthunnam"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "cityname": "gajuwaka",
+        "theaters": [
+            {
+                "theaterId": 1,
+                "theatername": "INOX CMR Central, Gajuwaka, Vizag",
+                "movies": [
+                    "Sankranthiki Vasthunnam",
+                    "Daaku Maharaaj",
+                    "Pushpa 2"
+                ]
+            },
+            {
+                "theaterId": 2,
+                "theatername": "Sian Mukta A2 Cinemas: Gajuwaka",
+                "movies": [
+                    "Game Changer",
+                    "Pushpa 2",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 3,
+                "theatername": "VMR Mall: Gajuwaka",
+                "movies": [
+                    "Game Changer",
+                    "Sankranthiki Vasthunnam"
+                ]
+            },
+            {
+                "theaterId": 4,
+                "theatername": "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka",
+                "movies": [
+                    "Mufasa: The Lion King",
+                    "Identity",
+                    "Hathya",
+                    "Emergency",
+                    "Sankranthiki Vasthunnam"
+                ]
+            }
+        ]
+    }
+]

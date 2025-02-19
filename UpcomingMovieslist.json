@@ -1,0 +1,110 @@
+[
+    {
+        "_id": 1,
+        "moviename": "Deva",
+        "genre": [
+            "action",
+            "thriller"
+        ],
+        "duration": "2h 45m",
+        "language": [
+            "hindi"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    },
+    {
+        "_id": 2,
+        "moviename": "Oru Jaathi Jathakam",
+        "genre": [
+            "comedy",
+            "romance"
+        ],
+        "duration": "2h 35m",
+        "language": [
+            "malayalam"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    },
+    {
+        "_id": 3,
+        "moviename": "Indra",
+        "genre": [
+            "Suspense",
+            "thriller"
+        ],
+        "duration": "2h 25m",
+        "language": [
+            "tamil"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    },
+    {
+        "_id": 4,
+        "moviename": "Aghathiyaa",
+        "genre": [
+            "Fantasy",
+            "thriller"
+        ],
+        "duration": "2h 20m",
+        "language": [
+            "tamil"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    },
+    {
+        "_id": 5,
+        "moviename": "Romantic Life",
+        "genre": [
+            "drama"
+        ],
+        "duration": "2h 45m",
+        "language": [
+            "telugu"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    },
+    {
+        "_id": 6,
+        "moviename": "thandel",
+        "genre": [
+            "action",
+            "love"
+        ],
+        "duration": "2h 45m",
+        "language": [
+            "telugu",
+            "hindi",
+            "tamil",
+            "kannada",
+            "malayalam"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    },
+    {
+        "_id": 7,
+        "moviename": "Sundarakanda",
+        "genre": [
+            "drama",
+            "comedy"
+        ],
+        "duration": "2h 45m",
+        "language": [
+            "telugu"
+        ],
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer"
+    }
+]

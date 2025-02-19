@@ -1,0 +1,538 @@
+[
+    {
+        "_id": 1,
+        "moviename": "Game Changer",
+        "genre": [
+            "action",
+            "drama",
+            "political"
+        ],
+        "duration": "2h 45m",
+        "language": [
+            "telugu",
+            "hindi",
+            "tamil",
+            "english"
+        ],
+        "rating": 7.5,
+        "UA13": "UA13+",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet",
+                    "AAB Cinemas: Gachibowli",
+                    "Aparna Cinemas: Nallagandla",
+                    "Asian CineSquare Multiplex: Uppal",
+                    "INOX: GVK One, Banjara Hills",
+                    "INOX: prism Mall, Hyderabad"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Gajuwaka",
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "INOX: Laila Mall, M.G. Road",
+                    "Cinepolis: Power One Mall, Vijayawada",
+                    "PVR: Ripples, Vijayawada"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Raja Picture Palace: Anakapalle",
+                    "Rama Chandra Hall: Anakapalle",
+                    "Satya Theater: Anakapalle"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "Sian Mukta A2 Cinemas: Gajuwaka",
+                    "VMR Mall: Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "moviename": "Daaku Maharaaj",
+        "genre": [
+            "action",
+            "drama"
+        ],
+        "duration": "2h 27m",
+        "language": [
+            "telugu"
+        ],
+        "rating": 8,
+        "UA13": "UA13+",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet",
+                    "AAB Cinemas: Gachibowli",
+                    "Aparna Cinemas: Nallagandla",
+                    "Asian CineSquare Multiplex: Uppal",
+                    "INOX: Ashoka One Mall, Kukatpally Y Junction"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Gajuwaka"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "INOX: Laila Mall, M.G. Road",
+                    "Cinepolis: Power One Mall, Vijayawada"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Raja Picture Palace: Anakapalle",
+                    "Rama Chandra Hall: Anakapalle"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "INOX CMR Central, Gajuwaka, Vizag"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "moviename": "Sankranthiki Vasthunnam",
+        "genre": [
+            "action",
+            "comedy",
+            "romance"
+        ],
+        "duration": "2h 24m",
+        "language": [
+            "telugu"
+        ],
+        "rating": 8.5,
+        "UA13": "UA13+",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet",
+                    "Aparna Cinemas: Nallagandla",
+                    "Asian CineSquare Multiplex: Uppal",
+                    "INOX: Ashoka One Mall, Kukatpally Y Junction",
+                    "INOX: GSM Mall, Hyderabad",
+                    "INOX: GVK One, Banjara Hills",
+                    "INOX: prism Mall, Hyderabad"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Gajuwaka",
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "INOX: Laila Mall, M.G. Road",
+                    "Cinepolis: Power One Mall, Vijayawada",
+                    "PVR: Ripples, Vijayawada"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Rama Chandra Hall: Anakapalle",
+                    "Satya Theater: Anakapalle",
+                    "Shird Sai Theater: Anakapalli"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "INOX CMR Central, Gajuwaka, Vizag",
+                    "Sian Mukta A2 Cinemas: Gajuwaka",
+                    "VMR Mall: Gajuwaka",
+                    "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "moviename": "Pushpa 2",
+        "genre": [
+            "action",
+            "thriller"
+        ],
+        "duration": "3h 10m",
+        "language": [
+            "telugu",
+            "hindi",
+            "tamil",
+            "kannada",
+            "malayalam",
+            "bengali"
+        ],
+        "rating": 8.5,
+        "UA13": "UA13+",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet",
+                    "Aparna Cinemas: Nallagandla",
+                    "Asian CineSquare Multiplex: Uppal"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Gajuwaka",
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "INOX: Laila Mall, M.G. Road"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Raja Picture Palace: Anakapalle",
+                    "Satya Theater: Anakapalle",
+                    "Shird Sai Theater: Anakapalli"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "INOX CMR Central, Gajuwaka, Vizag",
+                    "Sian Mukta A2 Cinemas: Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 5,
+        "moviename": "Mufasa: The Lion King",
+        "genre": [
+            "adventure",
+            "animation",
+            "drama"
+        ],
+        "duration": "1h 55m",
+        "language": [
+            "telugu",
+            "hindi",
+            "tamil",
+            "english"
+        ],
+        "rating": 8.4,
+        "UA13": "U",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAB Cinemas: Gachibowli"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Gajuwaka"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "Cinepolis: Power One Mall, Vijayawada",
+                    "PVR: Ripples, Vijayawada"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Shird Sai Theater: Anakapalli"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 6,
+        "moviename": "Sky Force",
+        "genre": [
+            "action"
+        ],
+        "duration": "2h 5m",
+        "language": [
+            "telugu",
+            "hindi",
+            "tamil",
+            "english"
+        ],
+        "rating": 8.4,
+        "UA13": "UA13+",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAB Cinemas: Gachibowli"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Raja Picture Palace: Anakapalle"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 7,
+        "moviename": "Identity",
+        "genre": [
+            "action",
+            "thriller"
+        ],
+        "duration": "2h 38m",
+        "language": [
+            "telugu",
+            "malayalam"
+        ],
+        "rating": 8.5,
+        "UA13": "UA16+",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "INOX: Laila Mall, M.G. Road"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Raja Picture Palace: Anakapalle"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 8,
+        "moviename": "Gandhi Tatha Chettu",
+        "genre": [
+            "drama"
+        ],
+        "duration": "1h 54m",
+        "language": [
+            "telugu"
+        ],
+        "rating": 6.5,
+        "UA13": "U",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet",
+                    "INOX: prism Mall, Hyderabad"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "PVR: Ripples, Vijayawada"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Satya Theater: Anakapalle"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 9,
+        "moviename": "Hongkong Warriors",
+        "genre": [
+            "action",
+            "crime",
+            "thriller"
+        ],
+        "duration": "1h 44m",
+        "language": [
+            "telugu",
+            "hindi",
+            "tamil"
+        ],
+        "rating": 7,
+        "UA13": "A",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Hyderabad",
+                "theaters": [
+                    "AAA Cinemas: Ameerpet",
+                    "AAB Cinemas: Gachibowli",
+                    "INOX: prism Mall, Hyderabad"
+                ]
+            },
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Gajuwaka",
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Vijayawada",
+                "theaters": [
+                    "INOX: Laila Mall, M.G. Road"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 10,
+        "moviename": "Hathya",
+        "genre": [
+            "crime",
+            "drama",
+            "thriller"
+        ],
+        "duration": "2h 28m",
+        "language": [
+            "telugu"
+        ],
+        "rating": 6,
+        "UA13": "A",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka"
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 11,
+        "moviename": "Emergency",
+        "genre": [
+            "drama",
+            "historical"
+        ],
+        "duration": "2h 27m",
+        "language": [
+            "telugu",
+            "hindi"
+        ],
+        "rating": 6,
+        "UA13": "UA",
+        "releaseDate": "2025-01-01",
+        "description": "Short description of the movie",
+        "trailer": "Trailer",
+        "cities": [
+            {
+                "cityName": "Visakhapatnam",
+                "theaters": [
+                    "INOX: CMR Central, Maddilapalem"
+                ]
+            },
+            {
+                "cityName": "Anakapalli",
+                "theaters": [
+                    "Shird Sai Theater: Anakapalli"
+                ]
+            },
+            {
+                "cityName": "Gajuwaka",
+                "theaters": [
+                    "Laser 4K Dolby Atmos, Aganampudi, Gajuwaka"
+                ]
+            }
+        ]
+    }
+]
