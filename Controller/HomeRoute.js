@@ -1,5 +1,5 @@
-import data from '../MoviesListCollection.json' assert {type: 'json'};
-import citiesData from '../CitiesListCollection.json' assert {type: 'json'};
+// import data from '../MoviesListCollection.json' assert {type: 'json'};
+// import citiesData from '../CitiesListCollection.json' assert {type: 'json'};
 
 import Movielistmodel from '../Models/MoviesListModel.js';
 import UpcomingMoviesmodel from '../Models/UpcomingMoviesModel.js';
