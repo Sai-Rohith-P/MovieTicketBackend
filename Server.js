@@ -16,6 +16,7 @@ const app = express()
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cros())
+
 app.use(cros({ origin: '*' }))
 DbConnectivity();
 
@@ -32,8 +33,12 @@ app.use('/', Home);
 app.post('/movieone/sitting/checking-session', async (req, res) => {
     try {
 
+        // console.log("Incoming Request Body:", req.body); // Add this line to debug
         const collectData = req.body;
-        // console.log(collectData);
+
+        if (!collectData.products) {
+            return res.status(400).json({ error: "Missing products in request body" });
+        }
 
         const lineItems = [{
             price_data: {
@@ -51,11 +56,12 @@ app.post('/movieone/sitting/checking-session', async (req, res) => {
             payment_method_types: ["card"],
             line_items: lineItems,
             mode: "payment",
-            success_url: 'https:/movieticketfrontend.onrender.com/success',
-            cancel_url: 'https:/movieticketfrontend.onrender.com/cancel',
-        })
+            success_url: 'http://localhost:3000/success',
+            cancel_url: 'http://localhost:3000/cancel',
+        });
 
-        res.json({ id: session.id })
+        // console.log("Created Stripe Session:", session); // Debug Stripe session response
+        res.json({ id: session.id });
 
 
     } catch (error) {
