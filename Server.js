@@ -51,8 +51,8 @@ app.post('/movieone/sitting/checking-session', async (req, res) => {
             payment_method_types: ["card"],
             line_items: lineItems,
             mode: "payment",
-            success_url: 'https:/movieticketfrontend.onrender.com/#/success',
-            cancel_url: 'https:/movieticketfrontend.onrender.com/#/cancel',
+            success_url: 'https:/movieticketfrontend.onrender.com/success',
+            cancel_url: 'https:/movieticketfrontend.onrender.com/cancel',
         })
 
         res.json({ id: session.id })
