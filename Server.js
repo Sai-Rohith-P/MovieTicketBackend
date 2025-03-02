@@ -8,6 +8,8 @@ import theaters from './Routes/Theaters.js';
 import cros from 'cors'
 import 'dotenv/config'
 import theaterdetails from './Routes/TheaterDetails.js';
+import Stripe from 'stripe'
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 const app = express()
 
@@ -26,6 +28,42 @@ app.use('/', LoginRoute);
 app.use('/', Movies);
 app.use('/', theaters);
 app.use('/', Home);
+
+app.post('/movieone/sitting/checking-session', async (req, res) => {
+    try {
+
+        const collectData = req.body;
+        // console.log(collectData);
+
+        const lineItems = [{
+            price_data: {
+                currency: "inr",
+                product_data: {
+                    name: collectData.products.moviename,
+                    description: `Seats: ${collectData.products.seats}, Time: ${collectData.products.time}`
+                },
+                unit_amount: collectData.products.price * 100 // Convert ₹ to paisa
+            },
+            quantity: collectData.products.count
+        }];
+
+        const session = await stripe.checkout.sessions.create({
+            payment_method_types: ["card"],
+            line_items: lineItems,
+            mode: "payment",
+            success_url: 'http://localhost:3000/success',
+            cancel_url: 'http://localhost:3000/cancel',
+        })
+
+        res.json({ id: session.id })
+
+
+    } catch (error) {
+        console.error("Error creating session:", error);
+        res.status(500).json({ error: error.message });
+    }
+
+})
 
 
 
