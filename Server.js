@@ -8,7 +8,9 @@ import theaters from './Routes/Theaters.js';
 import cros from 'cors'
 import 'dotenv/config'
 import theaterdetails from './Routes/TheaterDetails.js';
+
 import Stripe from 'stripe'
+import Sendmail from './SendingEmail.js';
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 const app = express()
@@ -56,8 +58,10 @@ app.post('/movieone/sitting/checking-session', async (req, res) => {
             payment_method_types: ["card"],
             line_items: lineItems,
             mode: "payment",
-            success_url: 'https://movieticketfrontend.onrender.com/success',
-            cancel_url: 'https://movieticketfrontend.onrender.com/cancel',
+            // success_url: 'https://movieticketfrontend.onrender.com/success',
+            // cancel_url: 'https://movieticketfrontend.onrender.com/cancel',
+            success_url: 'http://localhost:3000/success',
+            cancel_url: 'http://localhost:3000/cancel',
         });
 
         // console.log("Created Stripe Session:", session); // Debug Stripe session response
@@ -66,9 +70,28 @@ app.post('/movieone/sitting/checking-session', async (req, res) => {
 
     } catch (error) {
         console.error("Error creating session:", error);
-        res.status(500).json({ error: error.message });
+        res.status(500).json({ "error at payment": error.message });
     }
 
+})
+
+
+// Sending email 
+
+app.post('/success', async (req, res) => {
+    try {
+        const { products, username } = req.body;
+        if (!username || !products) {
+            return res.status(400).json({ error: "Missing username or ticket data" });
+        }
+
+
+        Sendmail(products, username);
+        res.json({ message: "Ticket data received & email sent!" });
+    } catch (error) {
+        console.error("Error processing success route:", error);
+        res.status(500).json({ error: error.message });
+    }
 })
 
 

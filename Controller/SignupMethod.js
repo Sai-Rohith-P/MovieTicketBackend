@@ -5,8 +5,8 @@ import bcrypt from 'bcrypt';
 
 const Signup = async (req, res) => {
     const secretKey = process.env.JWT_SECRET;
-    const { name, password, phone } = req.body;
 
+    const { name, email, password, phone } = req.body;
 
     const salt = await bcrypt.genSalt(5);
     const hashedPassword = await bcrypt.hash(password, salt);
@@ -14,6 +14,7 @@ const Signup = async (req, res) => {
     const signupuser = await new SignupModel({
         name: name,
         // password: password,
+        email: email,
         phone: phone,
         password: hashedPassword
     })
